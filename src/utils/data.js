@@ -3,19 +3,19 @@ const getData = () => {
         {
             id: 1,
             name: 'Dimas Saputra',
-            tags: 'dimasmds',
+            tag: 'dimasmds',
             imageUrl: '/images/dimasmds.jpeg',
         },
         {
             id: 2,
             name: 'Arif Faizin',
-            tags: 'arifaizin',
+            tag: 'arifaizin',
             imageUrl: '/images/arifaizin.jpeg',
         },
         {
-            id: 1,
+            id: 3,
             name: 'Rahmat Fajri',
-            tags: 'rfajri27',
+            tag: 'rfajri27',
             imageUrl: '/images/rfajri27.jpeg',
         },
     ];

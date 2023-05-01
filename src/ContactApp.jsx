@@ -6,13 +6,13 @@ class ContactApp extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            constacts: getData(),
+            contacts: getData(),
         }
 
         this.onDeleteHandler = this.onDeleteHandler.bind(this);
     }
     onDeleteHandler(id) {
-        const contacts = this.state.constacts.filter(contact => contact.id !== id);
+        const contacts = this.state.contacts.filter(contact => contact.id !== id);
         this.setState({ contacts });
     }
     render() {
